@@ -88,6 +88,6 @@ Record the FAERS/AEMS release/quarters, extraction date, input checksums, softwa
 MIT. Regulatory source data and MedDRA terminology may have separate terms/licensing requirements and are not distributed with this repository.
 
 ## Bayesian and temporal surveillance (V3 analytics)
-The repository now includes an open two-component Gamma-Poisson empirical-Bayes model that reports **EBGM, EB05 and EB95**, plus a **BCPNN-style Information Component (IC, IC025, IC975)**. A quarterly surveillance engine recomputes each period's reporting background and displays signal emergence, persistence, quarter-over-quarter change, and EBGM/IC trajectories.
+The repository includes an open two-component Gamma-Poisson empirical-Bayes model that reports **EBGM, EB05 and EB95**, plus a **BCPNN-style Information Component (IC, IC025, IC975)**. A quarterly surveillance engine recomputes each period's reporting background and displays signal emergence, persistence, quarter-over-quarter change, and EBGM/IC trajectories.
 
-These implementations are transparent research implementations and are **not claimed to reproduce proprietary FDA Empirica/MGPS or UMC production software exactly**. Disproportionality is hypothesis-generating and does not establish causality or incidence.
+
