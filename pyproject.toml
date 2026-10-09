@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pv-signal-explorer"
+version = "2.0.0"
+description = "FAERS/AEMS disproportionality and subgroup heterogeneity explorer"
+requires-python = ">=3.10"
+dependencies = ["streamlit>=1.40","pandas>=2.1","numpy>=1.26","scipy>=1.11","matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
